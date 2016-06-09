@@ -1,4 +1,4 @@
-﻿namespace FSharp.QuickStart.AngularJS2.AssemblyInfo
+﻿namespace FSharp.QuickStart.AngularJS2.SuaveHost.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("FSharp.QuickStart.AngularJS2")>]
+[<assembly: AssemblyTitle("FSharp.QuickStart.AngularJS2.SuaveHost")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("FSharp.QuickStart.AngularJS2")>]
+[<assembly: AssemblyProduct("FSharp.QuickStart.AngularJS2.SuaveHost")>]
 [<assembly: AssemblyCopyright("Copyright ©  2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("6857ccd4-b6cb-47b1-b074-5a974da57a50")>]
+[<assembly: Guid("2baf9a8e-85a3-45bf-b93c-3d40ff1eac83")>]
 
 // Version information for an assembly consists of the following four values:
 // 

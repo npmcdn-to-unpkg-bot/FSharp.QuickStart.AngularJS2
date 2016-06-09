@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6857ccd4-b6cb-47b1-b074-5a974da57a50</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>FSharp.QuickStart.AngularJS2</RootNamespace>
-    <AssemblyName>FSharp.QuickStart.AngularJS2</AssemblyName>
+    <ProjectGuid>2baf9a8e-85a3-45bf-b93c-3d40ff1eac83</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharp.QuickStart.AngularJS2.SuaveHost</RootNamespace>
+    <AssemblyName>FSharp.QuickStart.AngularJS2.SuaveHost</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>FSharp.QuickStart.AngularJS2</Name>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
+    <Name>FSharp.QuickStart.AngularJS2.SuaveHost</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,9 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\FSharp.QuickStart.AngularJS2.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Debug\FSharp.QuickStart.AngularJS2.SuaveHost.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,12 +33,17 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\FSharp.QuickStart.AngularJS2.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Release\FSharp.QuickStart.AngularJS2.SuaveHost.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Suave">
+      <HintPath>C:\Users\stuart\Documents\Visual Studio 2015\Projects\FSharp.QuickStart.AngularJS2\packages\Suave\lib\net40\Suave.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,8 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library1.fs" />
-    <None Include="Script.fsx" />
+    <Compile Include="Program.fs" />
+    <None Include="App.config" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
