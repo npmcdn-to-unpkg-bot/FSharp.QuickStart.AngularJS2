@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.QuickStart.AngularJS2.SuaveHost", "FSharp.QuickStart.AngularJS2.SuaveHost\FSharp.QuickStart.AngularJS2.SuaveHost.fsproj", "{2BAF9A8E-85A3-45BF-B93C-3D40FF1EAC83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{7AFB5B41-55AE-4778-A6C2-668C2E52A01D}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.QuickStart.AngularJS2.Web", "FSharp.QuickStart.AngularJS2.Web\FSharp.QuickStart.AngularJS2.Web.fsproj", "{78C81440-0E31-4741-A558-B360ADABFFDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{2BAF9A8E-85A3-45BF-B93C-3D40FF1EAC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BAF9A8E-85A3-45BF-B93C-3D40FF1EAC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BAF9A8E-85A3-45BF-B93C-3D40FF1EAC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C81440-0E31-4741-A558-B360ADABFFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C81440-0E31-4741-A558-B360ADABFFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C81440-0E31-4741-A558-B360ADABFFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C81440-0E31-4741-A558-B360ADABFFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

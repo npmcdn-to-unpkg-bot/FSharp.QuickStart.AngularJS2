@@ -43,8 +43,9 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Suave">
-      <HintPath>C:\Users\stuart\Documents\Visual Studio 2015\Projects\FSharp.QuickStart.AngularJS2\packages\Suave\lib\net40\Suave.dll</HintPath>
+      <HintPath>..\packages\Suave\lib\net40\Suave.dll</HintPath>
     </Reference>
+    <Reference Include="Suave" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />

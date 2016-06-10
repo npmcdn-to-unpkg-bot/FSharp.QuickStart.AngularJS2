@@ -33,6 +33,6 @@ let defaultMimeTypesMap = function
                  
 [<EntryPoint>]
 let main argv = 
-    startWebServer { defaultConfig with homeFolder = Some @"..\..\angularjs-quickstart" } app
+    startWebServer { defaultConfig with homeFolder = Some @"C:\Users\stuart.davies\Source\Repos\FSharp.QuickStart.AngularJS2\angular2-tour-of-heroes" } app
     printfn "%A" argv
     0 // return an integer exit code
