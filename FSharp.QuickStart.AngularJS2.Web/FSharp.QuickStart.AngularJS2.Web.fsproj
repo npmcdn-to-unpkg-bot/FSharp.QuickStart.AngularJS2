@@ -108,14 +108,15 @@
   </Target>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Compile Include="Global.asax.fs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HeroesController.fs" />
     <Content Include="packages.config" />
     <Content Include="readme.txt" />
     <Content Include="index.html" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
